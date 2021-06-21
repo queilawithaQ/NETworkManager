@@ -188,14 +188,13 @@
                         </Style>
                     </Grid.Style>
                     <Border Grid.Row="0" BorderBrush="{DynamicResource MahApps.Brushes.Gray8}" BorderThickness="0,0,0,1" Background="Transparent">
-
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="31" />
+                                <RowDefinition Height="48" />
                             </Grid.RowDefinitions>
                             <Button Grid.Column="0" Command="{Binding OpenApplicationListCommand}" ToolTip="{x:Static localization:Strings.Search}">
                                 <Button.Style>
@@ -225,9 +224,9 @@
                                         </Style.Triggers>
                                     </Style>
                                 </Button.Style>
-                                <Rectangle Width="16" Height="16">
+                                <Rectangle Width="24" Height="24">
                                     <Rectangle.OpacityMask>
-                                        <VisualBrush Stretch="Uniform" Visual="{iconPacks:Material Kind=ChevronDoubleRight}" />
+                                        <VisualBrush Stretch="Uniform" Visual="{iconPacks:Modern Kind=Magnify}" />
                                     </Rectangle.OpacityMask>
                                     <Rectangle.Style>
                                         <Style TargetType="{x:Type Rectangle}">
